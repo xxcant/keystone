@@ -227,7 +227,7 @@ Keystone.prototype.applyUpdates = function (callback) {
 Keystone.prototype.console = {};
 Keystone.prototype.console.err = function (type, msg) {
 	if (keystone.get('logger')) {
-		var dashes = '\n------------------------------------------------\n';
+		var dashes = '\n-------------------------------------------------\n';
 		console.log(dashes + 'KeystoneJS: ' + type + ':\n\n' + msg + dashes);
 	}
 };
